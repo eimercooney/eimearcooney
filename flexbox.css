@@ -1,0 +1,10 @@
+article {
+      display: flex;
+}
+
+mr.eavescontainer{
+      flex: 1;
+      padding-left: 4em; }
+      
+themancontainer {
+      flex:2;}
