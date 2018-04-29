@@ -9,28 +9,34 @@
 body {
     width: 75%;
     max-width: 600px;
-    font-family: 'Libre Baskerville', serif;
-    background: #f0f0f0;
-    color: #333;
+    font-family: 'monospace', courier new;
+    background: #1c2833;
+    color: #1b2632;
     line-height: 1.8em;
     margin: auto;
+    
 }
 
 header {
     margin: 6em 0;
 }
 
-header h2{
-    font-style: italic;
-    font-size: 2.25em;
-    color: #333;
+header h1{
+    font-style: normal;
+    font-size: 3.25em;
+    color: #1b2632;
+    text-align: center;
+    font-weight: normal;
 }
 
-h1, h2, h3 {
+h2, h3, h4, h5 {
     font-weight: normal;
-    color: #c06;
+    color: #58d68d;
     text-align: center;
+    font-size: 2.25em;
+    border-style: outset;
 }
+
 
 /*-----TYPOGRAPHY-----*/
 
@@ -40,25 +46,17 @@ p, li, blockquote {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-size: 4em;
-    margin-top: 1em;
-    margin-bottom: .1em;
-}
-
-h2 {
-    font-size: 2.25em;
-    margin-bottom: 1em;
+    font-family: 'monospace', courier new;
 }
 
 blockquote {
-    padding: 1em 0 4em 0;
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color:#777;
+    padding: 1em 0 3em 0;
+    font-size: 1em;
+    line-height: 1.3em;
+    color:#ff5733;
+    border-left: 20px solid lightgrey;    
+    background-color: lightblue;
+}
 }
 
 blockquote cite {
@@ -68,12 +66,12 @@ blockquote cite {
 /*-----LINKS-----*/
 
 a {
-    color: #fff;
+    color: #1b2632;
     text-decoration: none;
 }
 
 a:hover {
-    color: #006341;
+    color: #566573;
     border-bottom: 1px dotted;
 }
 
@@ -85,7 +83,7 @@ nav{
     left:0;
     margin:0;
     width:100%;
-    background-color: #333;
+    background-color: #566573;
     padding:1em 0;
 }
 
@@ -102,7 +100,7 @@ nav ul li {
 
 nav a:hover {
     border-bottom: none;
-    color:#c06;
+    color:#900c3f;
 }
 
 /*-----IMAGES-----*/
@@ -113,12 +111,13 @@ img {
     padding:0;
     max-width:100%;
 }
+    
 
 /*-----FOOTER-----*/
 
 footer {
     text-align: center;
-    font-size: .75em;
+    font-size: 1.75em;
     line-height: 1.5em;
     padding-bottom: 2em;
 }
