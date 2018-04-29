@@ -15,49 +15,58 @@
        <h1> Eimear Cooney </h1>
         
 
-       <img src="image/logo+work.jpg" alt="Visual Mark" style="width:500px;height:600px"/>
         
      <nav>
          <ul> 
-            
              <li><a href="#about">About</a></li>
              <li><a href="#projects">Projects</a></li>
              <li><a href="#contacts">Contact</a></li>
          </ul>
     </nav>
     </header>
-<section>
-     <h3 id="about">About</h3>
-    
-    <p> Hi, my name is Eimear (ee mur) and I am a UI designer. </p>
-    
-       
-</section>
-<section>
-    <h3 id="projects">Projects</h3>
-    
+      
+      <section>
+      <h2 id="about">About</h2>
+           <p>Hi, my name is Eimear (ee mur) and I am a UI designer.</p>
+      </section>
+      
+    <div>
+<img class="middle" src="image/banner.jpg"/>
+</div>
+      
 
-</section>
-      
-      
+<section>
+    <h2 id="projects">Projects</h2> 
+    <div class="projects">
+    <img src="image/Untitled-1.jpg">
+    </div>
+    <div class="projects">
+        <img src="image/app.jpg">
+    </div>
+    <div class=projects>
+        <img src="image/home%20iphone.jpg">
+    </div>
+        
       
 <section>
     <h3 id="contacts">Contacts</h3>
     
-          
-          <style> 
-div {
-    width: 100px;
-    height: 100px;
-    background: #ffffff;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-    }
-
-div:hover {
-    width: 300px;
-}
-</style> 
+  
+      </section>
+    
+                    <style> 
+    div#navigation ul{
+        text-align: right;
+        }
+        #projects{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+        }
+        figure{
+            grid-column: 1/4
+        }    
+</style>
+ 
 </section>
       
       </article>
