@@ -17,21 +17,11 @@ body {
     display: grid;
 }
 
-div#projects {
-            display: grid;
-            grid-template-columns: 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% ;
-            margin-top:240px
-        }
-        .project {
-            grid-auto-columns: 1/4;
-            margin-bottom: 80px;
-            
-        }
-        
-        div#projects p{
-                grid-column: 2/5;
-        }
-        
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 50px 50px;
+}
 
 
 header {
@@ -60,6 +50,7 @@ h2, h3, h4, h5 {
 p, li, blockquote {
     margin-bottom: 1.5em;
     line-height: 1.5;
+    color: black
 }
 
 p {
@@ -111,6 +102,41 @@ nav a:hover {
     border-bottom: none;
     color:#900c3f;
 }
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;}
+
+.fa-twitter {
+  background: #55ACEE;
+    color: white;}
+    
+.fa-instagram {
+  background: #125688;
+    color: white;}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+    
+    
 
 /*-----IMAGES-----*/
 
