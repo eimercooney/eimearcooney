@@ -5,23 +5,78 @@
     font-size: 100%;
     line-height: 1em;
 }
-
+#about
+{
+    background-color: #EB9B65;
+    background-repeat: no-repeat, repeat;
+    margin-top: 40px;
+    padding: 40px;
+}
 body {
     width: 75%;
-    max-width: 600px;
     font-family: Arial, Helvetica, sans-serif;
     background: #ffff;
-    color: #ffff;
+    color: #000;
     line-height: 1.8em;
     margin: auto;
-    display: grid;
+    display: block;
+       
 }
+
+h1 {margin-top: 100px;}
 
 .wrapper {
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 50px 50px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0;
+  margin: 0;
+
+}
+.grid-item {
+  background-color: white;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  text-align: center;
+}
+
+.grid-containerproject {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 40px;
+
+}
+.grid-item {
+  background-color: white;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-containercontact {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-top: 40px;
+  
+
+}
+.grid-item {
+  background-color: white;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+
+#whatido {padding-top: 40px;}
+
+#projects {padding-top: 40px;}
+
+#contacts {padding-top: 40px;}
 
 
 header {
@@ -31,14 +86,14 @@ header {
 header h1{
     font-style: normal;
     font-size: 3.25em;
-    color: #F3C19F;
+    color: #3B3838;
     text-align: center;
     font-weight: normal;
 }
 
 h2, h3, h4, h5 {
     font-weight: normal;
-    color: #F3C19F;
+    color: #000000;
     text-align: center;
     font-size: 2.25em;
     border-style: none;
@@ -50,7 +105,7 @@ h2, h3, h4, h5 {
 p, li, blockquote {
     margin-bottom: 1.5em;
     line-height: 1.5;
-    color: black
+    text-align: center;
 }
 
 p {
@@ -66,12 +121,12 @@ blockquote cite {
 /*-----LINKS-----*/
 
 a {
-    color: #fff;
+    color: #ffff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #fff;
+    color: #FFCCCC;
     border-bottom: 1px dotted;
 }
 
@@ -157,13 +212,61 @@ img {
     height:150px;
 }
 
+
 /*-----FOOTER-----*/
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
 
 footer {
     text-align: center;
     font-size: 1.75em;
     line-height: 1.5em;
     padding-bottom: 2em;
+    background-color: #EB9B65;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 35px;
 }
 
 footer hr {
@@ -172,4 +275,5 @@ footer hr {
 
 footer p {
     margin-top:2em;
+    color: black;
 }
