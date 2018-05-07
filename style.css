@@ -34,7 +34,7 @@ h1 {margin-top: 100px;}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 0;
+  padding: 20;
   margin: 0;
 
 }
@@ -45,18 +45,6 @@ h1 {margin-top: 100px;}
   text-align: center;
 }
 
-.grid-containerproject {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding-top: 40px;
-
-}
-.grid-item {
-  background-color: white;
-  border: 0px solid rgba(0, 0, 0, 0.8);
-  padding: 10px;
-  text-align: center;
-}
 
 .grid-containercontact {
   display: grid;
